@@ -1,0 +1,26 @@
+diff --git a/node_modules/chainlink/contracts/ChainlinkClient.sol b/node_modules/chainlink/contracts/ChainlinkClient.sol
+index c03e797..1ab1a28 100644
+--- a/node_modules/chainlink/contracts/ChainlinkClient.sol
++++ b/node_modules/chainlink/contracts/ChainlinkClient.sol
+@@ -23,7 +23,7 @@ contract ChainlinkClient {
+   uint256 constant private ARGS_VERSION = 1;
+   bytes32 constant private ENS_TOKEN_SUBNAME = keccak256("link");
+   bytes32 constant private ENS_ORACLE_SUBNAME = keccak256("oracle");
+-  address constant private LINK_TOKEN_POINTER = 0xC89bD4E1632D3A43CB03AAAd5262cbe4038Bc571;
++  address constant private LINK_TOKEN_POINTER = 0x859a5A7bBe21C56AbB8AAc36B0A0B5D258D0445b;
+ 
+   ENSInterface private ens;
+   bytes32 private ensNode;
+diff --git a/node_modules/chainlink/v0.5/contracts/ChainlinkClient.sol b/node_modules/chainlink/v0.5/contracts/ChainlinkClient.sol
+index bdc964e..505f055 100644
+--- a/node_modules/chainlink/v0.5/contracts/ChainlinkClient.sol
++++ b/node_modules/chainlink/v0.5/contracts/ChainlinkClient.sol
+@@ -23,7 +23,7 @@ contract ChainlinkClient {
+   uint256 constant private ARGS_VERSION = 1;
+   bytes32 constant private ENS_TOKEN_SUBNAME = keccak256("link");
+   bytes32 constant private ENS_ORACLE_SUBNAME = keccak256("oracle");
+-  address constant private LINK_TOKEN_POINTER = 0xC89bD4E1632D3A43CB03AAAd5262cbe4038Bc571;
++  address constant private LINK_TOKEN_POINTER = 0x859a5A7bBe21C56AbB8AAc36B0A0B5D258D0445b;
+ 
+   ENSInterface private ens;
+   bytes32 private ensNode;

@@ -1,0 +1,42 @@
+{
+  "name": "chainlink-client-contracts",
+  "version": "1.0.0",
+  "description": "Chainlink client example implementations",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "patch-package",
+    "lint:solhint": "npx solhint \"contracts/**/*.sol\"",
+    "lint:solium": "npx solium -d contracts/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngyam/chainlink-clients.git"
+  },
+  "keywords": [
+    "chainlink",
+    "client",
+    "aggregator",
+    "example",
+    "contract"
+  ],
+  "author": "Adam Nagy <ngy.am.zs@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ngyam/chainlink-clients/issues"
+  },
+  "homepage": "https://github.com/ngyam/chainlink-clients#readme",
+  "dependencies": {
+    "LinkToken": "git+https://github.com:energywebfoundation/LinkToken.git",
+    "chainlink": "^0.7.9",
+    "ethlint": "^1.2.5",
+    "patch-package": "^6.2.0",
+    "solhint": "^2.3.0",
+    "solium-plugin-zeppelin": "0.0.2",
+    "truffle": "^5.1.1",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}

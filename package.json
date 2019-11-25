@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ngyam/chainlink-clients.git"
+    "url": "git+https://github.com/ngyam/chainlink-client-contracts.git"
   },
   "keywords": [
     "chainlink",
@@ -26,9 +26,9 @@
   "author": "Adam Nagy <ngy.am.zs@gmail.com>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ngyam/chainlink-clients/issues"
+    "url": "https://github.com/ngyam/chainlink-client-contracts/issues"
   },
-  "homepage": "https://github.com/ngyam/chainlink-clients#readme",
+  "homepage": "https://github.com/ngyam/chainlink-client-contracts#readme",
   "dependencies": {
     "LinkToken": "git+https://github.com:energywebfoundation/LinkToken.git",
     "chainlink": "^0.7.9",
